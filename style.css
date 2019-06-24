@@ -1,0 +1,28 @@
+body {
+    margin: 0 ;
+    padding: 0;
+    height: 100vh;
+    position: absolute; 
+    width: 100%; 
+}
+
+#particles-js {
+    height: 100%;
+    background: linear-gradient(#1e272e, #57606f);
+    position: absolute;
+    width: 100%;
+}
+
+.colorwhite {
+    color: white;
+   margin: 60px;
+   width: 100px;
+   margin-bottom: 100px;
+   position: relative;
+   width: 380px;
+   height: 50px;
+   font-size: 40px;
+   margin-top: 60px;
+   display: flex;
+   justify-content: space-between;
+}
