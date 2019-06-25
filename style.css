@@ -27,6 +27,13 @@ body {
    justify-content: space-between;
 }
 
+/* temporary ackground until bug is fixed */
+.background {
+    background: linear-gradient(#1e272e, #57606f);
+}
+/* temporary ackground until bug is fixed */
+
+
 .fontsize {
     font-size: 20px; 
 }
@@ -35,30 +42,45 @@ body {
     display: flex; 
     flex-direction: column; 
     align-items: center; 
-    width: 100%; 
 }
 
 .child-center  {
     display: flex; 
     flex-direction: column; 
     align-items: center;  
-    background: green;
 }
 
 /* To align content  */
-
 .align-divs {
     display: flex; 
     flex-direction: row; 
     justify-content: center; 
     justify-content: space-around; 
 }
-
 /* To align content */
+
+.child-width {
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;  
+    width: 50rem;
+    
+}
+
+.child-box {
+    width: 284px;
+  padding: 10px 10px 20px 10px;
+  margin: 35px; 
+  border: 1px solid #BFBFBF;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
 
 img {
     width: 200px; 
     height: 200px;
     margin: auto 0; 
     padding: 10px;  
+    border-radius: 50%; 
 }
+
