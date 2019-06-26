@@ -128,6 +128,21 @@
         width: 50rem; 
     }
 
+    .navbar nav a{
+        color: white; 
+        margin: 10px; 
+        padding: auto 0; 
+        text-decoration: none; 
+    }
+
+    .navbar2 nav a {
+        color: black; 
+        margin: 10px; 
+        padding: auto 0; 
+        text-decoration: none; 
+        
+    }
+
     
 /* Mobile View  */
 
