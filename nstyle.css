@@ -44,6 +44,7 @@
     }
 
     /* To align content  */
+    
     .align-divs {
         display: flex; 
         flex-direction: row; 
@@ -70,8 +71,30 @@
         box-shadow: 10px 10px 5px #aaaaaa;
         display: flex; 
         flex-direction: column; 
-        align-items: center;  
+        align-items: center; 
+        /* Part of DOM JS function. Allows div to pop */
+        transform: scale(.9); 
+        transform-origin: 0 0; 
+        transition: transform .6s;
+        border-radius: 1em; 
+        padding: 1em; 
     }
+
+    .large {
+        transform: scale(1.3); 
+    }
+
+    /* Part of DOM JS function. Allows div to pop */
+
+    /* testing */
+    /* .shelby {
+        transform: scale(.9); 
+        transform-origin: 0 0; 
+        transition: transform .6s;
+        border-radius: 1em; 
+        padding: 1em; 
+    } */
+    /* testing */
 
     .child-box2 {
         width: 103rem;
