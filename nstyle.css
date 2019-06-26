@@ -202,7 +202,12 @@
      } 
 
      .align-divs {
-         width: 50rem ;
+         width: 50rem;
+         display: flex; 
+     }
+
+     nav a {
+        font-size: 23px; 
      }
 
 
