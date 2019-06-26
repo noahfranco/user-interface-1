@@ -7,14 +7,7 @@
         background: linear-gradient(#52a577, #57606f); 
     }
     
-    /* #particles-js {
-        height: 100%;
-        background: linear-gradient(#4ab89c, #57606f);
-        position: absolute;
-        width: 100%;
-        height: 100%;
-    } */
-    
+   
     .colorwhite {
         color: white;
        margin: 60px;
@@ -146,6 +139,40 @@
     
 /* Mobile View  */
 
+/* Meet Our Team Page */
+
+@media (max-width: 500px) {
+    
+    body {
+        width: 100%; 
+    }
+
+    .parent-container1 {
+        width: 95rem; 
+        height: 43rem;
+    }
+    
+    .parent-container1 h1 {
+        font-size: 50px; 
+    }
+
+    .parent-container1 p {
+        font-size: 40px; 
+    }
+
+    .navbar2 {
+        font-size: 33px; 
+    }
+
+    .media-center {
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        width: 102rem; 
+    }
+
+    /* About Page */
+}
 
     
 
